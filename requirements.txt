@@ -1,10 +1,15 @@
-bottle==0.12.13
+-i https://pypi.python.org/simple/
+backports.shutil-get-terminal-size==1.0.0 ; python_version == '2.7'
+bottle==0.12.19
 certifi==2017.11.5
 chardet==3.0.4
+configparser==4.0.2 ; python_version < '3.2'
+enum34==1.1.10 ; python_version < '3.4'
 flake8==3.5.0
 httplib2==0.10.3
 idna==2.6
 mccabe==0.6.1
+pathlib==1.0.1 ; python_version == '2.7'
 pew==1.1.0
 pipenv==8.3.2
 psutil==5.3.1
@@ -13,7 +18,8 @@ pyflakes==1.6.0
 pymongo==3.6.1
 pyotp==2.2.6
 requests==2.18.4
+shutilwhich==1.1.0 ; python_version == '2.7'
 urllib3==1.22
-virtualenv==15.1.0
 virtualenv-clone==0.2.6
-Werkzeug==0.14.1
+virtualenv==15.1.0
+werkzeug==0.14.1
